@@ -1,9 +1,7 @@
 import getElement from "./utils/getElement.js";
+import { patterns } from "./utils/patterns.js";
 
-const patterns = {
-    telephoneUK: /^\d{11}$/,
-    telephoneUS: /^[0-9]{10}$/,
-};
+console.log(patterns);
 
 const inputs = document.querySelectorAll("input");
 
