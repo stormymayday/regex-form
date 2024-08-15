@@ -1,5 +1,5 @@
-import getElement from "../utils/getElement.js";
-import { patterns } from "../utils/patterns.js";
+import getElement from "./utils/getElement.js";
+import { patterns } from "./utils/patterns.js";
 
 console.log(patterns);
 
