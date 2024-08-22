@@ -1,3 +1,7 @@
+:root {
+    --clr-valid: #36cc36;
+}
+
 body {
     font-family: arial;
     color: #333;
@@ -25,5 +29,5 @@ input {
 
 /* Validation Styles */
 input.valid {
-    border-color: #36cc36;
+    border-color: var(--clr-valid);
 }
