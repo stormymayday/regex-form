@@ -1,5 +1,6 @@
 :root {
     --clr-valid: #36cc36;
+    --clr-invalid: orange;
 }
 
 body {
