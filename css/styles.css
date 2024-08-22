@@ -36,3 +36,14 @@ input.valid {
 input.invalid {
     border-color: var(--clr-invalid);
 }
+
+input + p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: var(--clr-invalid);
+    opacity: 0;
+    height: 0;
+}
