@@ -32,3 +32,7 @@ input {
 input.valid {
     border-color: var(--clr-valid);
 }
+
+input.invalid {
+    border-color: var(--clr-invalid);
+}
